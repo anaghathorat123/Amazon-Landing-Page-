@@ -2,7 +2,7 @@
 
 ### Hi there, I'm Anagha Thorat!
 
-Welcome to my Amazon landing page project, created using HTML and CSS.
+Welcome to my Amazon landing page project.
 
 ## Description
 
