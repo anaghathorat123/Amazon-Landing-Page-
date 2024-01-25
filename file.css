@@ -1,0 +1,278 @@
+*{
+  margin : 0px;
+  font-family: arial;
+  border : border-box;
+}
+.navbar {
+  background-color: #0a0b0b;
+  height : 60px; 
+  width : 100%;
+  color : white;
+  display : flex;
+  justify-content: space-around;
+  position: sticky;
+}
+
+.logo {
+  margin : 0px;
+  height : 50px;
+  width : 120px;
+  padding : 2px;
+}
+
+.border{
+  border : 2.5px solid transparent;
+}
+.border:hover {
+  border : 1px solid white;
+  margin : 2px;
+}
+.address{
+  padding : 10px;
+  padding-left : 13px;
+}
+.msg{
+  font-size: small;
+  color : rgb(199, 197, 197);
+  font-weight: 500;
+  margin-left : 18px;
+  margin-top : 3px;
+}
+.below{
+  font-size : medium;
+  font-weight : 550;
+  margin-left : 5px;
+}
+.loc-logo {
+  display : flex;
+  align-items : center;
+}
+
+.search-bar {
+  margin : 0px;
+  background-color: rgb(243, 172, 66);
+  display: flex;
+  height: 40px;
+  margin : 10px;
+  margin-left : 20px;
+  border-radius : 5px;
+}
+
+.select-button{
+  background-color: rgb(235, 232, 232);
+  color : rgb(105, 102, 102);
+  padding : 10px;
+  width : 60px;
+  border-radius: 5px 0px 0px 5px;
+  border : 0px;
+}
+.search {
+  /* min-width : 240px; */
+  width : 640px;
+  padding-left : 10px;
+  font-weight: 400;
+  font-size: 15px;
+  border : 0px;
+  border-left : 1px solid rgb(133, 131, 131);
+}
+.search-logo {
+  padding : 12px;
+  border : 0px;
+}
+.msg-2{
+  font-size: small;
+  margin-top : 4px;
+}
+.msg-3{
+  font-size: small;
+  font-weight: 800;
+}
+
+.cart-bar{
+  display : flex;
+  padding : 10px;
+}
+
+.cart-bar i{
+  font-size : 30px;
+}
+.cart {
+  margin-top : 15px;
+  font-size: medium;
+  font-weight : 550;
+}
+
+
+/* line 2 */
+
+.line2{
+  height : 25px;
+  background-color : #222F3E;
+  color : white;
+  padding  : 15px;
+  display : flex;
+  font-size :large;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.panel-list {
+  display : flex;
+  width : 70%;
+  font-size : 0.9rem;
+}
+.items{
+  display : inline;
+  margin-left : 30px;
+  padding : 5px;
+}
+.panel-right {
+  display : flex;
+}
+
+.panel-right i{
+  font-size: 22px;
+  margin-right : 10px;
+}
+
+.panel-right p {
+  color : rgb(199, 197, 197);
+}
+
+.pointer:hover{
+  cursor : pointer;
+}
+
+.hero-section{
+  background-image: url("image/img2.jpg");
+  height  : 273px;
+  background-size: cover;
+  display : flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.shopping { 
+  display : flex;
+  justify-content: space-evenly;
+}
+.cards{
+  height : 440px;
+  width : 23%;
+  background-color: white;
+}
+section {
+  background-color: #b1b2b4;
+  /* background-color: #575758; */
+}
+.sub-card{
+  display : flex;
+  flex-direction: row;
+  margin-left : 10px;
+  margin-top : 10px;
+}
+.card-img{
+  height : 150px;
+  width : 150px;
+  margin-left : 10px;
+}
+.see-more{
+  margin-left : 20px;
+  text-decoration: none;
+  font-size: small;
+}
+.cards h3{
+  margin :10px;
+  margin-left : 20px;
+}
+img+p{
+  font-size: small;
+  font-weight : 500;
+  margin-left : 10px;
+  margin-bottom : 15px;
+}
+
+.right-card1{
+  padding : 20px;
+}
+
+.btn{
+  margin-top : 25px;
+  height : 30px;
+  width : 100%;
+  border-radius : 5px;
+  border : 0px;
+  background-color: rgb(242, 242, 39);
+}
+.right-card{
+  height : 130px;
+  width : 23%;
+  background-color: white;
+}
+.right-img
+{
+  height : 290px;
+  width : 100%;
+  margin-top : 30px;
+}
+
+
+/* scroll-css */
+
+.wrapper {
+  max-height : 250px;
+  /* border : 1px solid #ddd; */
+  display : flex;
+  overflow-x : auto;
+}
+
+.wrapper::-webkit-scrollbar{
+  width :0;
+}
+
+.wrapper .item{
+  min-width : 250px;
+  height : 200px;
+  margin : 10px;
+  line-height : 110px;
+  text-align : center;
+  /* background-color: #ddd; */
+  margin-right: 2px;
+}
+
+.scroll-bar{
+  padding-top : 50px;
+  padding-left : 20px;
+}
+.scroll {
+  background-color: white;
+  padding : 20px;
+}
+.scroll h3{
+  padding-bottom : 15px;
+}
+
+.bottom-card{
+  height : 50px;
+  width : 100%;
+  background-color: #37475a;
+  color : white;
+  display: flex;
+  justify-content : center;
+  align-items: center;
+}
+
+.bottom-info{
+  background-color: #222F3E;
+  color : white;
+  display: flex;
+  justify-content: space-evenly;
+  padding : 60px;
+  /* height : 500px; */
+}
+
+h4 ~ p {
+  margin : 5px;
+  margin-left : 0px;
+  color :rgb(199, 197, 197);
+}
